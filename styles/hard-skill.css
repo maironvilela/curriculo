@@ -1,0 +1,71 @@
+.hard-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+
+.hard-skill__title {
+  font-family: 'Kode Mono', monospace;
+  color: #008b8b;
+  font-weight: bold;
+  font-family: 'Kode Mono', monospace;
+  font-size: 2.2rem;
+  border-bottom: 2px solid #008b8b;
+}
+
+.skill-cards__list {
+  margin-top: 2.8rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2.4rem;
+  max-width: 80%;
+  flex-wrap: wrap;
+}
+
+.skill-cards__list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  transition: all 0.5s;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.skill-cards__list li > img {
+  width: 100px;
+  height: 100px;
+  transition: all 0.5s;
+}
+
+.skill-cards__list li span {
+  margin-top: 0.8rem;
+  font-size: var(--span-sm);
+  font-family: 'Kode Mono', monospace;
+  color: #008b8b;
+}
+
+.container-stars-item {
+  width: 10px;
+  height: 10px;
+}
+
+.hard-skill__skill-cards {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  //background-color: #fff;
+  text-align: center;
+}
+
+.hard-skill__skill-cards img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.hard-skill__skill-cards .container-stars-item.checked {
+  fill: #ffd700;
+}

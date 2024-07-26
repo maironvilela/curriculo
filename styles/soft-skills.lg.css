@@ -1,0 +1,14 @@
+@media (width > 1023px) {
+  .container-softskills-list__softskills-list {
+    flex-direction: row;
+    gap: 10rem;
+  }
+
+  .container-softskills-list__softskills-list li {
+    width: 100%;
+  }
+  .container-softskills-list__softskills-list li img {
+    width: 15rem;
+    height: 15rem;
+  }
+}

@@ -1,0 +1,59 @@
+.soft-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.soft-skills__title {
+  font-family: 'Kode Mono', monospace;
+  color: #008b8b;
+  font-weight: bold;
+  font-family: 'Kode Mono', monospace;
+  font-size: 2.2rem;
+  border-bottom: 2px solid #008b8b;
+  margin: 4rem;
+}
+
+.container-softskills-list__softskills-list {
+}
+
+.container-softskills-list__softskills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.container-softskills-list__softskills-list
+  + .container-softskills-list__softskills-list {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.container-softskills-list__softskills-list li {
+  transform: rotate(-10deg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 20px 20px 20px rgba(75, 0, 130, 0.3);
+}
+
+.container-softskills-list__softskills-list li:nth-child(2) {
+  transform: rotate(10deg);
+}
+
+.container-softskills-list__softskills-list li img {
+  width: 100px;
+  height: 100px;
+}
+
+.container-softskills-list__softskills-list li span {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Kode Mono', monospace;
+  color: #008b8b;
+  font-weight: bold;
+  border-bottom: 5px solid #250c31;
+}
