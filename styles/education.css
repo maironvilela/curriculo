@@ -2,23 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-img: url('../assets/cap.svg');
-}
+  padding-bottom: 6rem;
+ }
 
 .education__divider__title {
   font-family: 'Kode Mono', monospace;
   color: #008b8b;
   font-weight: bold;
-  font-family: 'Kode Mono', monospace;
-  font-size: 2.2rem;
+   font-size: 2.2rem;
   border-bottom: 2px solid #008b8b;
-  margin: 4rem;
-}
-
-.education__divider {
-  margin: 6rem auto 4rem auto;
-}
-
+ }
+ 
 .education__background {
   width: 70rem;
   height: 50rem;
@@ -26,12 +20,23 @@
   position: absolute;
 }
 
-.education__container-information-education {
+.education__container-information-education {  
+  padding-inline: 2rem;;
   margin-top: 4.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+  justify-content: center;
+  font-size: 1.6rem;
+  text-align: center;
+  
+ }
+
+ .education__container-information-education span{
+  font-size: 1.4rem;
+  color: var(--silver)
+  }
+ 
 
 .education__container-information-education
   + .education__container-information-education {

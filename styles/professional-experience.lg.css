@@ -1,0 +1,8 @@
+@media (width > 1023px) {
+  .professional-experience__timeline ul li:nth-child(even) {
+    flex-direction: row-reverse;
+   }  
+}
+
+
+ 

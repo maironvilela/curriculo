@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap');
 
 .header {
-  padding-top: 5rem;
+  padding: 5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  //background: linear-gradient(150deg, #250c31, #08071b);
-  //height: 80vh;
+  background: linear-gradient(150deg, #250c31, #08071b);
   gap: 1.6rem;
 }
 
@@ -24,10 +23,9 @@
 
 .header h1 {
   font-size: var(--h1-sm);
-  font-height: 18rem;
-  line-height: 90%;
   font-family: 'Kode Mono', monospace;
-}
+  padding-inline: 2rem;;
+ }
 
 .header span {
   font-size: var(--span-sm);
@@ -38,8 +36,9 @@
 
 .header p {
   font-size: var(--p-sm);
-  max-width: 60ch;
-  color: #d3d3d3;
+   color: #d3d3d3;
+   padding-inline: 2rem;;
+
 }
 
 .header img {

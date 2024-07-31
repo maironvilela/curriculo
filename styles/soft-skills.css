@@ -2,33 +2,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 5rem;
-}
+   background-color: #08071b;}
 
 .soft-skills__title {
   font-family: 'Kode Mono', monospace;
   color: #008b8b;
   font-weight: bold;
-  font-family: 'Kode Mono', monospace;
   font-size: 2.2rem;
   border-bottom: 2px solid #008b8b;
-  margin: 4rem;
+  margin-bottom: 4rem;
+
 }
 
-.container-softskills-list__softskills-list {
-}
+ 
 
 .container-softskills-list__softskills-list {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 10rem;
   justify-content: space-between;
+
+
 }
 
 .container-softskills-list__softskills-list
   + .container-softskills-list__softskills-list {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+
 }
 
 .container-softskills-list__softskills-list li {
@@ -38,7 +39,9 @@
   align-items: center;
   padding: 2rem;
   box-shadow: 20px 20px 20px rgba(75, 0, 130, 0.3);
-}
+  background: #250c31
+
+} 
 
 .container-softskills-list__softskills-list li:nth-child(2) {
   transform: rotate(10deg);
@@ -53,7 +56,7 @@
   margin-left: 1rem;
   font-size: 1.2rem;
   font-family: 'Kode Mono', monospace;
-  color: #008b8b;
+  color: #FFF;
   font-weight: bold;
   border-bottom: 5px solid #250c31;
 }

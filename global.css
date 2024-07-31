@@ -7,10 +7,11 @@
 :root {
   --black: #28262e;
   --white: #ffffff;
+  --silver: #94a3b8	;
 
   --background: linear-gradient(150deg, #250c31, #08071b);
 
-  --h1-sm: 5rem;
+  --h1-sm: 3.2rem;
   --span-sm: 1.2rem;
   --p-sm: 1.2rem;
 
@@ -75,7 +76,7 @@ hr {
   width: 30%;
   margin: 0 auto;
   border: 1px solid #08071b;
-  margin: 6rem auto 3rem auto;
-  //padding: 0.3rem;
+  margin: 3rem auto 3rem auto;
+   padding: 0.3rem;
   border-inline: none;
 }

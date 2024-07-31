@@ -1,13 +1,13 @@
 .qualifications {
-}
+  padding: 0 3rem;
+ }
 
 .qualifications__title {
   font-family: 'Kode Mono', monospace;
   color: #008b8b;
   font-weight: bold;
   font-size: 2.2rem;
-  margin: 4rem auto;
-  text-align: center;
+   text-align: center;
 }
 
 .qualifications__background {
@@ -19,10 +19,10 @@
 }
 
 .qualifications__container-informaticon-qualifications {
-  padding: 2rem 5rem;
-  display: flex;
+   display: flex;
   flex-direction: column;
   gap: 3rem;
+  padding-top: 3rem;
 }
 
 .container-informaticon-qualifications__information-qualifications {
@@ -34,8 +34,8 @@
 .container-informaticon-qualifications__information-qualifications
   div:nth-child(1) {
   display: flex;
-  gap: 1rem;
-  flex-direction: row;
+   align-items: left;
+   flex-direction: column;
 }
 .container-informaticon-qualifications__information-qualifications
   div:nth-child(2) {
